@@ -1,25 +1,6 @@
 # SemanticAttributes
 Parser to identify semantic attributes (in automatic image descriptions)
 
-This project is based on the lexica developed by Van Miltenburg et al. (2018):
-
-```
-@InProceedings{W18-6550,
-  author = 	"van Miltenburg, Emiel
-		and Elliott, Desmond
-		and Vossen, Piek",
-  title = 	"Talking about other people: an endless range of possibilities",
-  booktitle = 	"Proceedings of the 11th International Conference on Natural Language Generation",
-  year = 	"2018",
-  publisher = 	"Association for Computational Linguistics",
-  pages = 	"415--420",
-  location = 	"Tilburg University, The Netherlands",
-  url = 	"http://aclweb.org/anthology/W18-6550"
-}
-```
-
-You can find the repository for this paper [here](https://github.com/evanmiltenburg/LabelingPeople).
-
 ## Requirements
 These are the software versions that we used. Other versions remain untested, and may give different results.
 
@@ -38,3 +19,24 @@ These are the software versions that we used. Other versions remain untested, an
 ## Usage
 
 Run `python example.py` to see an analysis of the sentence "There is a young man in the garden with a tall woman."
+
+## References
+
+This project is based on the lexica developed by Van Miltenburg et al. (2018):
+
+```
+@InProceedings{W18-6550,
+  author = 	"van Miltenburg, Emiel
+		and Elliott, Desmond
+		and Vossen, Piek",
+  title = 	"Talking about other people: an endless range of possibilities",
+  booktitle = 	"Proceedings of the 11th International Conference on Natural Language Generation",
+  year = 	"2018",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"415--420",
+  location = 	"Tilburg University, The Netherlands",
+  url = 	"http://aclweb.org/anthology/W18-6550"
+}
+```
+
+You can find the repository for this paper [here](https://github.com/evanmiltenburg/LabelingPeople).
