@@ -1,0 +1,10 @@
+S
+Label
+NounPhrase
+Conj
+Det
+Headnoun
+Mod
+Contrast
+Consist
+Conj

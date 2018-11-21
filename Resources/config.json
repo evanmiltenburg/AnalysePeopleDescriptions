@@ -1,0 +1,7 @@
+{
+    "GenderedNoun": "./Nouns/gendered.txt",
+    "Conj": "./Other/conjunction.txt",
+    "Det": "./Other/determiner.txt",
+    "Contrast": "./Other/contrast.txt",
+    "Consist": "./Other/consist.txt"
+}
