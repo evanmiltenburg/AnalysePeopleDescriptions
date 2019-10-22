@@ -1,0 +1,31 @@
+file1	file2	overlap
+meta	occupation-or-social-group	stockphoto donutman
+relation	familyrelation	married, twin, newlywed
+colors	skin-color	yellow
+pose	state	bundled up
+pose	activity	kneeling
+number	group	group, couple
+number	state	lonely
+number	occupation-or-social-group	sole surfer
+group	activity	gathering
+build	fitness	physically fit
+build	attractiveness	shapely, very well built
+build	activity	athletic
+build	height	petite
+kind-of-clothing	eyes	bespectacled
+kind-of-clothing	color-of-clothing	red-clad, blue-shirted, green-shirted, bright clothes, green shirted, orange vested, blue shirted, red-sleeved, gray-suited, red jacketed young, vibrantly colored, yellow shirted, pink-draped, pink-coated, black leather shoes, red-hatted, red-vested, light blue gray uniformed, brightly dressed, red hatted, colorful, darkly clothed, white-shirted, white shirted, gray sweatshirt, brightly robed, colorfully costumed, black-robed
+fitness	weight	out-of-shape
+skin-other	skin-color	tanned, tan, pale
+ability	state	disabled
+religion	ethnicity	hindu, muslim
+skin-color	hair-color	fair, dark
+skin-color	amount-of-clothing	bare skin
+hair-color	hair-length	short black haired
+hair-color	hair-style	curly-blond-haired
+ethnicity	age	senior caucasian
+age	weight	little
+age	occupation-or-social-group	older skateboarder
+state	judgment	goofy looking, crazy, creepy
+state	activity	sweating
+judgment	activity	strange looking
+occupation-or-social-group	location	outdoors
