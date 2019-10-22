@@ -3,12 +3,11 @@ import nltk
 from nltk import ChartParser
 
 # Load grammar.
-# TODO: change grammar to revised grammar.
-grammar = nltk.data.load('./LabelingPeople/Flickr30k/labelgrammar.cfg')
+grammar = nltk.data.load('./Resources/full_grammar.cfg')
 parser = ChartParser(grammar)
 
 # Load SpaCy
-nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 
 
 def load_base_labels():
@@ -42,7 +41,7 @@ def select_chunks(chunks, nouns):
 
 base_labels = load_base_labels()
 gendered_nouns = load_lexicon('./Resources/Nouns/gendered.txt')
-chunks = get_chunks("There is a young man in the garden with a tall woman.")
+chunks = get_chunks("There is a young black man in the garden with a tall woman.")
 selection = select_chunks(chunks, gendered_nouns)
 
 for item in selection:

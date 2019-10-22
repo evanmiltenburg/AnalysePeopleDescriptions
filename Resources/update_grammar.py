@@ -23,9 +23,27 @@ def create_nonterminal_rule(label, targets, add_newline=True):
     return rule
 
 
-def create_lexical_rule(category_name, lexical_items, add_newline=True):
+def chunks(l, max_chars):
+    """Yield lists of strings that just exceed """
+    num_chars = 0
+    chunk = []
+    for item in l:
+        total = num_chars + len(item)
+        if total > max_chars:
+            yield chunk
+            chunk = [item]
+            num_chars = len(item)
+        else:
+            num_chars += len(item)
+            chunk.append(item)
+    yield chunk
+
+
+def create_lexical_rule(category_name, lexical_items, add_newline=True, max_chars=60):
     "Generate rule."
-    rule = category_name + ' -> ' + ' | '.join(lexical_items)
+    rules = [category_name + ' -> ' + ' | '.join(chunk)
+             for chunk in chunks(lexical_items, max_chars)]
+    rule = '\n'.join(rules)
     if add_newline:
         rule = rule + '\n'
     return rule

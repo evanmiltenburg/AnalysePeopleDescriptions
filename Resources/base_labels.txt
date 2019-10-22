@@ -3,7 +3,7 @@ Label
 NounPhrase
 Conj
 Det
-Headnoun
+HeadNoun
 Mod
 Contrast
 Consist

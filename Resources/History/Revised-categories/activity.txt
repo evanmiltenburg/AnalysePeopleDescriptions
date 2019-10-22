@@ -892,7 +892,6 @@ snow boarding
 snow skating
 snow skiing
 snowboarding
-snowboarding'
 snowshoeing
 snowskating
 soaking
@@ -1007,8 +1006,6 @@ tending
 tennis playing
 testing
 texting
-texting [?]
-texting'
 thing
 thinking
 threatening
@@ -1120,7 +1117,6 @@ walking on sidewalk
 walking on street
 walking to left
 walking to market
-walking'
 walking.
 walkingy
 walks
