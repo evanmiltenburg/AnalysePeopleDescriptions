@@ -1,0 +1,48 @@
+chef
+clown
+coach
+conductor
+construction worker
+cook
+cop
+fireman
+news reporter
+night worker
+officer
+photographer
+police
+police officer
+soldier
+teacher
+umpire
+farmer
+king
+models
+camera man
+cowboy
+personnel
+business people
+chefs
+construction workers
+cops
+firefighters
+officers
+officials
+police officers
+police people
+sailors
+soldiers
+students
+emergency personnel
+speaker
+worker
+life guard
+lifeguard
+speakers
+workers
+world war era soldiers
+life guards
+owner
+shop employee
+owners
+employees

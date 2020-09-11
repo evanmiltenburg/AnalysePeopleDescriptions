@@ -1,12 +1,22 @@
-girls
+boy
 boys
-man
+girl
+girls
 male
 female
+man
 men
 women
-girl
 woman
 females
 males
-boy
+bus ladies
+guy
+guys
+bride
+daughter
+groom
+camera man
+cowboy
+ladies
+lady

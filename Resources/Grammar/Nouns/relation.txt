@@ -1,0 +1,19 @@
+father
+friend
+patient
+bride
+daughter
+groom
+couple
+family
+friends
+parents
+wedding couple
+owner
+shop employee
+owners
+employees
+customer
+guests
+customers
+spectators

@@ -1,5 +1,10 @@
 {
+    "ActivityNoun": "./Nouns/activity.txt",
+    "AgeNoun": "./Nouns/age.txt",
     "GenderedNoun": "./Nouns/gendered.txt",
+    "PluralMassNoun": "./Nouns/plural-or-mass.txt",
+    "RelationNoun": "./Nouns/relation.txt",
+    "StatusOccupationNoun": "./Nouns/status-occupation.txt",
     "Conj": "./Other/conjunction.txt",
     "Det": "./Other/determiner.txt",
     "Contrast": "./Other/contrast.txt",

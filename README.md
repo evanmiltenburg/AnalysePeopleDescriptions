@@ -6,7 +6,7 @@ These are the software versions that we used. Other versions remain untested, an
 
 * Python 3.6.6
 * NLTK 3.3
-* SpaCy 2.0.4
+* SpaCy 2.0.4 with model 'en_core_web_sm'
 
 ## Contents
 

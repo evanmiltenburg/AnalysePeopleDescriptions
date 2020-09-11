@@ -1,0 +1,20 @@
+adult
+adults
+baby
+babies
+child
+children
+kid
+kid child
+toddler
+girl
+lady
+woman
+women
+children
+adults
+babies
+kids
+boys
+girls
+ladies

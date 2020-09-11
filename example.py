@@ -12,7 +12,7 @@ nlp = spacy.load('en_core_web_sm', disable=["ner"])
 
 def load_base_labels():
     "Load the base labels. These are not meaningful for our analysis."
-    with open('./Resources/base_labels.txt') as f:
+    with open('./Resources/Grammar/base_labels.txt') as f:
         return {line.strip() for line in f if not line == ''}
 
 BASE_LABELS = load_base_labels()
