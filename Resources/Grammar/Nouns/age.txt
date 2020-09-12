@@ -18,5 +18,6 @@ adults
 babies
 kids
 boys
+boy
 girls
 ladies
