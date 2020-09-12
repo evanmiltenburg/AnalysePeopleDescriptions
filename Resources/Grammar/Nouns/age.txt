@@ -11,6 +11,8 @@ girl
 lady
 woman
 women
+man
+men
 children
 adults
 babies

@@ -147,6 +147,7 @@ row of
 separate
 seven
 seventy
+single
 six
 sixteen
 sixteen men
@@ -172,3 +173,6 @@ twenty
 two
 various
 few
+many
+several
+multiple

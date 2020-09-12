@@ -12,6 +12,7 @@ father
 friend
 friends
 grandfather
+opposing
 grandmother
 grandson
 groom

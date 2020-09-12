@@ -1,3 +1,7 @@
 a
 an
 the
+these
+this
+another
+some

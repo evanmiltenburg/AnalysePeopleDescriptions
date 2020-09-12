@@ -38,6 +38,7 @@ speaker
 worker
 life guard
 lifeguard
+life guards
 speakers
 workers
 world war era soldiers
@@ -46,3 +47,7 @@ owner
 shop employee
 owners
 employees
+toy boy
+mounted police officers
+traffic girl
+bikers
