@@ -1,6 +1,7 @@
 import json
 import nltk
 from nltk import ChartParser
+from collections import defaultdict
 
 
 def load_json(filename):
@@ -40,5 +41,17 @@ IGNORE = {'S','Label','NounPhrase','Conj','Det',
 human_chunks = load_strings('../Analyse-modifiers/human_chunks.txt')
 analysis = analyse(human_chunks, parser, IGNORE)
 
+# Write a JSON file with phrases mapping to their analyses.
 with open('analyses.json','w') as f:
     json.dump(analysis, f, indent=2)
+
+# Write the opposite JSON file as well: mapping from category to phrases.
+by_category = defaultdict(list)
+for key,values in analysis.items():
+    if values is None:
+        continue
+    for value in values:
+        by_category[value].append(key)
+
+with open("phrases_by_category.json",'w') as f:
+    json.dump(by_category, f, indent=2)

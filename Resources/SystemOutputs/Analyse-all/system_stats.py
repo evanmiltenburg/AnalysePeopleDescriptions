@@ -65,5 +65,18 @@ analyses           = load_json("analyses.json")
 human_chunk_counts = load_json("human_chunk_counts.json")
 human_chunk_counts = simplify_keys(human_chunk_counts)
 table = create_table(human_chunk_counts)
+replacements = {"Tavakoli-et-al-2017": "\\newcite{tavakoli2017paying}",
+                "Zhou-et-al-2017": "\\newcite{zhou2017watch}",
+                "Vinyals-et-al-2017": "\\newcite{vinyals2017show}",
+                "Shetty-et-al-2016": "\\newcite{Shetty:2016:ESC:2983563.2983571}",
+                "Dai-et-al-2017": "\\newcite{Dai_2017_ICCV} ",
+                "Mun-et-al-2017": "\\newcite{mun2017text}",
+                "Shetty-et-al-2017": "\\newcite{Shetty_2017_ICCV}",
+                "Liu-et-al-2017": "\\newcite{liu2017mat}",
+                "Wu-et-al-2016": "\\newcite{wu2017image}"}
+
+for string, replacement in replacements.items():
+    table = table.replace(string, replacement)
+
 with open('main_table.tex','w') as f:
     f.write(table)

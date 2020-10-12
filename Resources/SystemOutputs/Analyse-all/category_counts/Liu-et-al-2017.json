@@ -1,12 +1,11 @@
 {
   "GenderedNoun": 11929,
   "AgeNoun": 12017,
-  "OccupationSocGroup": 824,
   "ActivityNoun": 818,
+  "OccupationSocGroup": 824,
   "PluralMassNoun": 757,
   "RelationNoun": 717,
   "Age": 470,
-  "Weight": 233,
   "StatusOccupationNoun": 7,
   "Build": 2
 }
