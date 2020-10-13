@@ -1,3 +1,9 @@
+"""
+This is a really basic example that only works for gendered nouns.
+You'll have to implement a more elaborate checking function for other nouns,
+so as to be able to capture compound nouns as well.
+"""
+
 import spacy
 import nltk
 from nltk import ChartParser
