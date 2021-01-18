@@ -1,0 +1,505 @@
+{
+    "a man": [
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "young girls": [
+        "PluralMassNoun",
+        "Age",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a woman": [
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "children": [
+        "PluralMassNoun",
+        "AgeNoun"
+    ],
+    "people": [
+        "GeneralNoun"
+    ],
+    "two women": [
+        "Number",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "two men": [
+        "Number",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a basketball player": [
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "another player": [
+        "ActivityNoun"
+    ],
+    "a boy": [
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a young man": [
+        "Age",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "two young girls": [
+        "Number",
+        "PluralMassNoun",
+        "Age",
+        "GenderedNoun",
+        "AgeNoun"
+    ],
+    "a skateboarder": [
+        "ActivityNoun"
+    ],
+    "two boys": [
+        "Number",
+        "PluralMassNoun",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "two people": [
+        "Number",
+        "GeneralNoun"
+    ],
+    "a hockey player": [],
+    "another man": [
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "two young boys": [
+        "Number",
+        "PluralMassNoun",
+        "Age",
+        "GenderedNoun",
+        "AgeNoun"
+    ],
+    "a little girl": [
+        "Age",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a little boy": [
+        "Age",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "another woman": [
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a girl": [
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "men": [
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a young boy": [
+        "Age",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "three women": [
+        "Number",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "cyclists": [
+        "PluralMassNoun",
+        "ActivityNoun"
+    ],
+    "two young children": [
+        "Number",
+        "PluralMassNoun",
+        "Age",
+        "AgeNoun"
+    ],
+    "a crowd": [
+        "PluralMassNoun"
+    ],
+    "a young girl": [
+        "Age",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a child": [
+        "AgeNoun"
+    ],
+    "a small child": [
+        "Build",
+        "AgeNoun"
+    ],
+    "a police officer": [
+        "StatusOccupationNoun",
+        "OccupationSocGroup"
+    ],
+    "a soccer player": [
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "a cowboy": [
+        "StatusOccupationNoun",
+        "GenderedNoun"
+    ],
+    "three people": [
+        "Number",
+        "GeneralNoun"
+    ],
+    "three men": [
+        "Number",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a baseball player": [
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "two children": [
+        "Number",
+        "PluralMassNoun",
+        "AgeNoun"
+    ],
+    "a snowboarder": [
+        "ActivityNoun"
+    ],
+    "a few people": [
+        "Number",
+        "GeneralNoun"
+    ],
+    "other people": [
+        "GeneralNoun"
+    ],
+    "two basketball players": [
+        "Number",
+        "PluralMassNoun",
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "two football players": [
+        "Number",
+        "PluralMassNoun",
+        "ActivityNoun"
+    ],
+    "woman": [
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a baby": [
+        "AgeNoun"
+    ],
+    "a chef": [
+        "StatusOccupationNoun"
+    ],
+    "the other player": [
+        "ActivityNoun"
+    ],
+    "two other men": [
+        "Number",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "women": [
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "the other team": [
+        "ActivityNoun"
+    ],
+    "a patient": [
+        "RelationNoun"
+    ],
+    "a surfer": [
+        "ActivityNoun"
+    ],
+    "a small baby": [
+        "Build",
+        "AgeNoun"
+    ],
+    "three children": [
+        "Number",
+        "PluralMassNoun",
+        "AgeNoun"
+    ],
+    "one boy": [
+        "Number",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a blond woman": [
+        "HairColor",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a football player": [
+        "ActivityNoun"
+    ],
+    "a person": [
+        "GeneralNoun"
+    ],
+    "two girls": [
+        "Number",
+        "PluralMassNoun",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "other girls": [
+        "PluralMassNoun",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "football players": [
+        "PluralMassNoun",
+        "ActivityNoun"
+    ],
+    "another person": [
+        "GeneralNoun"
+    ],
+    "a third player": [
+        "Number",
+        "ActivityNoun"
+    ],
+    "a shirtless man": [
+        "AmountOfClothing",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a large crowd": [],
+    "his friend": [],
+    "a worker": [
+        "StatusOccupationNoun",
+        "ActivityNoun"
+    ],
+    "one woman": [
+        "Number",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a construction worker": [
+        "StatusOccupationNoun",
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "two other women": [
+        "Number",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "three other people": [
+        "Number",
+        "GeneralNoun"
+    ],
+    "a hockey team": [],
+    "young men": [
+        "Age",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "two young men": [
+        "Number",
+        "Age",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "a young woman": [
+        "Age",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "soccer players": [
+        "PluralMassNoun",
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "two other people": [
+        "Number",
+        "GeneralNoun"
+    ],
+    "a team": [
+        "ActivityNoun"
+    ],
+    "a couple": [
+        "RelationNoun",
+        "PluralMassNoun"
+    ],
+    "spectators": [
+        "RelationNoun",
+        "PluralMassNoun",
+        "ActivityNoun"
+    ],
+    "two hockey players": [],
+    "construction workers": [
+        "StatusOccupationNoun",
+        "PluralMassNoun",
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "basketball players": [
+        "PluralMassNoun",
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "a small boy": [
+        "Build",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "groom": [
+        "RelationNoun",
+        "GenderedNoun"
+    ],
+    "a newborn baby": [
+        "Age",
+        "AgeNoun"
+    ],
+    "a player": [
+        "ActivityNoun"
+    ],
+    "players": [
+        "PluralMassNoun",
+        "ActivityNoun"
+    ],
+    "the catcher": [
+        "ActivityNoun"
+    ],
+    "cowboy": [
+        "StatusOccupationNoun",
+        "GenderedNoun"
+    ],
+    "two soccer players": [
+        "Number",
+        "PluralMassNoun",
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "several people": [
+        "Number",
+        "GeneralNoun"
+    ],
+    "a tennis player": [
+        "ActivityNoun"
+    ],
+    "a catcher": [
+        "ActivityNoun"
+    ],
+    "some people": [
+        "GeneralNoun"
+    ],
+    "a bride": [
+        "RelationNoun",
+        "GenderedNoun"
+    ],
+    "a clown": [
+        "StatusOccupationNoun"
+    ],
+    "young children": [
+        "PluralMassNoun",
+        "Age",
+        "AgeNoun"
+    ],
+    "many people": [
+        "Number",
+        "GeneralNoun"
+    ],
+    "two baseball players": [
+        "Number",
+        "PluralMassNoun",
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "two other boys": [
+        "Number",
+        "PluralMassNoun",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "young people": [
+        "Age",
+        "GeneralNoun"
+    ],
+    "a young soccer player": [
+        "OccupationSocGroup",
+        "Age",
+        "ActivityNoun"
+    ],
+    "three girls": [
+        "Number",
+        "PluralMassNoun",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "girl": [
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "two teams": [
+        "Number",
+        "PluralMassNoun",
+        "ActivityNoun"
+    ],
+    "rider": [
+        "ActivityNoun"
+    ],
+    "motorcyclists": [
+        "PluralMassNoun",
+        "ActivityNoun"
+    ],
+    "a runner": [
+        "ActivityNoun"
+    ],
+    "opposing teams": [
+        "PluralMassNoun",
+        "ActivityNoun",
+        "Relation"
+    ],
+    "one man": [
+        "Number",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "the player": [
+        "ActivityNoun"
+    ],
+    "a blond girl": [
+        "HairColor",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "three construction workers": [
+        "Number",
+        "StatusOccupationNoun",
+        "PluralMassNoun",
+        "OccupationSocGroup",
+        "ActivityNoun"
+    ],
+    "one team": [
+        "Number",
+        "ActivityNoun"
+    ],
+    "shirtless shirtless man": [
+        "AmountOfClothing",
+        "AgeNoun",
+        "GenderedNoun"
+    ],
+    "two other players": [
+        "Number",
+        "PluralMassNoun",
+        "ActivityNoun"
+    ],
+    "the opposing team": [
+        "ActivityNoun",
+        "Relation"
+    ],
+    "a tan blond girl": [
+        "HairColor",
+        "SkinColor",
+        "GenderedNoun",
+        "SkinOther",
+        "AgeNoun"
+    ]
+}
