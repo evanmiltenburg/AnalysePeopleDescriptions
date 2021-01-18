@@ -6,7 +6,7 @@ This folder shows how to analyze your own system outputs.
 Run `python example.py`. Requirements are the same as the main repository.
 
 The code takes the outputs from the `caption_outputs` folder as an input.
-Your own outputs don't need to share this format, but then you need to modify the output-specific code (i.e. the code below `if __name__ == "__main__"`). 
+Your own outputs don't need to share this format, but then you need to modify the output-specific code (i.e. the code below `if __name__ == "__main__"`). All you need to do, is provide a sequence of `(identifier, caption)` tuples for the code to analyze.
 
 The code produces the analyses in the `analyses` folder. There are two files per system:
 1. `base_name-index.json` lists the labels referring to people, with a list of IDs of captions these labels occur in.
