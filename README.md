@@ -16,11 +16,12 @@ These are the software versions that we used. Other versions remain untested, an
 * `example.py` shows the basic usage of this resource.
 * `/Full-example` shows how to use this resource to assess your own system output.
 * `/Resources` contains:
-    - The grammar and the scripts used to build the grammar.
+    - The `SystemOutputs` folder with scripts that were used for the LANTERN2020 workshop. This is not very clean (the code shouldn't be in `Resources/SystemOutputs/...`), and some day I may refactor the code.
+    - The `Grammar` folder, which contains the grammar and the scripts used to build the grammar. This is further divided in:
     - The `Grammar/History` folder, which contains the previous versions of the lexicon, with the scripts that we used to compile the current version.
     - The `Grammar/Nouns` folder, which  contains the set of nouns used in our grammar. The grammar does not provide full coverage of all nouns, but rather aims to provide an accurate analysis for the nouns that are given.
     - The `Grammar/Other` folder, which  contains other terms that are essential for the grammar to work.
-    - The `SystemOutputs` folder with scripts that were used for the LANTERN2020 workshop. (This is not very clean, and some day I may refactor the code.)
+    
 
 ## Usage
 
