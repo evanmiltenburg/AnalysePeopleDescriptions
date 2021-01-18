@@ -88,8 +88,15 @@ def analyze_chunks(chunks, parser, grammar):
         tokens = nltk.word_tokenize(chunk)
         not_covered = missing(tokens, grammar)
         if not_covered:
-            analyses.get('not_covered',[]).extend(not_covered)
-            analyses.get('failed_chunks',[]).append(chunk)
+            # Update missing words:
+            word_list = analyses.get('not_covered',[])
+            word_list.extend(not_covered)
+            analyses['not_covered'] = word_list
+            
+            # Update failed chunks:
+            chunk_list = analyses.get('failed_chunks',[])
+            chunk_list.append(chunk)
+            analyses['failed_chunks'] = chunk_list
         else:
             analyses[chunk] = analyze_chunk(tokens, parser)
     return analyses
