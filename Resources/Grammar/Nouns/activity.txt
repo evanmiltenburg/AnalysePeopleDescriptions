@@ -11,6 +11,8 @@ football team
 force skateboarder
 horse rider
 horseback rider
+hockey player
+hockey players
 jockey
 kite surfer
 league baseball player

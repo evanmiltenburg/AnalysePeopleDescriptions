@@ -1,4 +1,5 @@
 {
+    "Pron": "./Other/pronouns.txt",
     "ActivityNoun": "./Nouns/activity.txt",
     "AgeNoun": "./Nouns/age.txt",
     "GenderedNoun": "./Nouns/gendered.txt",
